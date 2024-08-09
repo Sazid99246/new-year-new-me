@@ -136,3 +136,70 @@ header p {
     font-size: 40px;
     font-weight: 700;
 }
+
+footer {
+    background-color: #151414;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+.future {
+    margin-right: 230px;
+}
+
+.future h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future-description {
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.email {
+    padding-bottom: 8px;
+}
+
+.phone {
+    padding-bottom: 32px;
+}
+
+.social-icons {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.subscribe input {
+    color: #F3F3F3;
+    font-size: 18px;
+    padding: 21px 158px 22px 21px;
+    background-color: #151414;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+}
+
+.subscribe input::placeholder {
+    color: #F3F3F3;
+}
+
+.subscribe input[type="submit"] {
+    font-family: "Inter", sans-serif;
+    border: 0;
+    color: #FFF;
+    background-color: #005FAC;
+    padding: 20px 36px;
+    font-size: 20px;
+    margin-top: 16px;
+    border-radius: 8px;
+}
