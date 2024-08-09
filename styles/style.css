@@ -22,7 +22,8 @@ header {
     padding: 216px;
 }
 
-h1, header p {
+h1,
+header p {
     color: #FFF;
 }
 
@@ -86,3 +87,38 @@ header p {
     color: #16D887;
 }
 
+.plans h2 {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan-image {
+    margin-bottom: 24px;
+}
+
+.plan-title {
+    margin-bottom: 16px;
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
