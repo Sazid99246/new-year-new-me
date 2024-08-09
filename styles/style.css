@@ -6,11 +6,15 @@
 
 body {
     font-family: "Work Sans", sans-serif;
-    background-color: #E8F4FD;
+}
+
+p {
+    line-height: 26px;
 }
 
 header {
     background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -44,4 +48,41 @@ header p {
     padding: 21px 25px 20px 26px;
     font-size: 16px;
     margin-top: 32px;
+    border-radius: 5px;
 }
+
+.failure {
+    display: flex;
+    align-items: center;
+    margin: 140px 300px;
+    gap: 105px;
+}
+
+.failure h2 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failure p {
+    color: #444343;
+}
+
+.failure-description {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.list-item {
+    margin-bottom: 8px;
+}
+
+.failure img {
+    width: 450px;
+}
+
+.fa-check {
+    color: #16D887;
+}
+
