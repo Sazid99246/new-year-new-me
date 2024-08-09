@@ -122,3 +122,17 @@ header p {
     font-size: 25px;
     font-weight: 500;
 }
+
+.mindset {
+    margin: 130px 230px;
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    padding: 59px 0 64px 64px;
+}
+
+.mindset h2 {
+    color: #FFF;
+    max-width: 459px;
+    font-size: 40px;
+    font-weight: 700;
+}
